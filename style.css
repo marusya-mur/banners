@@ -32,7 +32,7 @@
     border: none;
     cursor: pointer;
 }
-.block__button_first{
+.block_first .block__button{
     padding: 10px 32px;
     flex-direction: column;
     width: 145px;
@@ -43,7 +43,7 @@
     box-shadow: 0px 6px 10px rgba(16, 17, 19, 0.1);
     border-radius: 20px;
 }
-.block__button_second{
+.block_second .block__button{
     padding: 8px 24px;
     flex-direction: row;
     width: 124px;
@@ -70,12 +70,12 @@
     text-align: center;
     line-height: 20px;
 }
-.block__button-text_first{
+.block_first .block__button-text{
     left: 32px;
     right: 32px;
     font-size: 14px;
 }
-.block__button-text_second{
+.block_second .block__button-text{
     left: 24px;
     right: 24px;
     font-size: 14px;
@@ -87,7 +87,7 @@
     display: flex;
     align-items: center;
 }
-.block__text_first{
+.block_first .block__text{
     left: 20px;
     right: 20px;
     top: 16px;
@@ -96,7 +96,7 @@
     line-height: 20px;
     color: #212121;
 }
-.block__text_second{
+.block_second .block__text{
     height: 72px;
     left: 12px;
     right: 12px;
@@ -155,7 +155,7 @@
     border: none;
     cursor: pointer;
 }
-.block__button_first{
+.block_first .block__button{
     padding: 12px 32px;
     flex-direction: column;
     width: 156px;
@@ -166,7 +166,7 @@
     box-shadow: 0px 6px 10px rgba(16, 17, 19, 0.1);
     border-radius: 22px;
 }
-.block__button_second{
+.block_second .block__button{
     padding: 14px 36px;
     flex-direction: row;
     width: 159px;
@@ -193,12 +193,12 @@
     text-align: center;
     line-height: 20px;
 }
-.block__button-text_first{
+.block_first .block__button-text{
     font-size: 16px;
     left: 32px;
     right: 32px;
 }
-.block__button-text_second{
+.block_second .block__button-text{
     left: 36px;
     right: 36px;
     font-size: 16px;
@@ -210,7 +210,7 @@
     display: flex;
     align-items: center;
 }
-.block__text_first{
+.block_first .block__text{
     height: 48px;
     left: 24px;
     right: 204px;
@@ -219,7 +219,7 @@
     line-height: 24px;
     color: #212121;
 }
-.block__text_second{
+.block_second .block__text{
     height: 48px;
     left: 24px;
     right: 203px;
