@@ -14,11 +14,11 @@
     display: block;
     box-sizing: border-box;    
 }
-.block_first{
+.block_orange{
     width: 264px;
     height: 152px;
 }
-.block_second{
+.block_yellow{
     height: 148px;
     width: 296px;
     border: 1px solid #E5E8EC;
@@ -31,34 +31,6 @@
     position: absolute;
     border: none;
     cursor: pointer;
-}
-.block_first .block__button{
-    padding: 10px 32px;
-    flex-direction: column;
-    width: 145px;
-    height: 40px;
-    left: calc(50% - 145px/2 + 0.5px);
-    top: 92px;
-    background: #FF7E4A;
-    box-shadow: 0px 6px 10px rgba(16, 17, 19, 0.1);
-    border-radius: 20px;
-}
-.block_second .block__button{
-    padding: 8px 24px;
-    flex-direction: row;
-    width: 124px;
-    height: 36px;
-    left: calc(50% - 124px/2);
-    top: 96px;
-    background: #F7B100;
-    border-radius: 8px;
-}
-.block__button-text{
-    position: static;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -69,25 +41,36 @@
     font-weight: bold;
     text-align: center;
     line-height: 20px;
-}
-.block_first .block__button-text{
-    left: 32px;
-    right: 32px;
     font-size: 14px;
+
 }
-.block_second .block__button-text{
-    left: 24px;
-    right: 24px;
-    font-size: 14px;
+.block_orange .block__button{
+    padding: 10px 32px;
+    flex-direction: column;
+    width: 145px;
+    height: 40px;
+    left: calc(50% - 145px/2 + 0.5px);
+    top: 92px;
+    background: #FF7E4A;
+    box-shadow: 0px 6px 10px rgba(16, 17, 19, 0.1);
+    border-radius: 20px;
+}
+.block_yellow .block__button{
+    padding: 8px 24px;
+    flex-direction: row;
+    width: 124px;
+    height: 36px;
+    left: calc(50% - 124px/2);
+    top: 96px;
+    background: #F7B100;
+    border-radius: 8px;
 }
 .block__text{
     position: absolute;
     font-style: normal;
     font-weight: normal;
-    display: flex;
-    align-items: center;
 }
-.block_first .block__text{
+.block_orange .block__text{
     left: 20px;
     right: 20px;
     top: 16px;
@@ -96,7 +79,7 @@
     line-height: 20px;
     color: #212121;
 }
-.block_second .block__text{
+.block_yellow .block__text{
     height: 72px;
     left: 12px;
     right: 12px;
@@ -107,14 +90,14 @@
     text-align:  center;
     color: #101010;
 }
-.block__text__span1{
+.block__underlined{
     text-decoration: line-through;
 }
-.block__text__span1-1{
+.block_orange .block__highlight{
     font-weight: bold;
     color: #FF7E4A;
 }
-.block__text__span1-2{
+.block_yellow .block__highlight{
     font-weight: bold;
     color: #F7B100;
 }
@@ -154,6 +137,18 @@
     position: absolute;
     border: none;
     cursor: pointer;
+    text-align: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    top: calc(50% - 20px/2);
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    font-size: 16px;
 }
 .block_first .block__button{
     padding: 12px 32px;
@@ -176,39 +171,10 @@
     background: #F7B100;
     border-radius: 8px;
 }
-.block__button-text{
-    position: static;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 0px;
-    top: calc(50% - 20px/2);
-    color: white;
-    font-style: normal;
-    font-weight: bold;
-    text-align: center;
-    line-height: 20px;
-}
-.block_first .block__button-text{
-    font-size: 16px;
-    left: 32px;
-    right: 32px;
-}
-.block_second .block__button-text{
-    left: 36px;
-    right: 36px;
-    font-size: 16px;
-}
 .block__text{
     position: absolute;
     font-style: normal;
     font-weight: normal;
-    display: flex;
-    align-items: center;
 }
 .block_first .block__text{
     height: 48px;
@@ -228,14 +194,14 @@
     line-height: 24px;
     color: #101010;
 }
-.block__text__span1{
+.block__underlined{
     text-decoration: line-through;
 }
-.block__text__span1-1{
+.block__orange-highlight{
     font-weight: bold;
     color: #FF7E4A;
 }
-.block__text__span1-2{
+.block__yellow-highlight{
     font-weight: bold;
     color: #F7B100;
 }
