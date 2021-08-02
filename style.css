@@ -1,7 +1,6 @@
-@media (min-width: 768px){
+@media screen and (max-width: 320px){
 .page
 {
-    width:100%;
     margin: 0;
     background-color:#E5E5E5;
     font-family: Arial, Helvetica, sans-serif;
@@ -12,69 +11,28 @@
 {
     position: relative;
     background: #FFFFFF;
-    display: inline-block;
-    vertical-align: top;
-    box-sizing: border-box;
-    top: 50px;
-    left: 50px;
+    display: block;
+    box-sizing: border-box;    
 }
 .page__line_first{
-    width: 100%;
-    max-width: 672px;
-    height: 80px;
+    width: 264px;
+    height: 152px;
 }
 .page__line_second{
-    width: 100%;
-    max-width: 640px;
-    height: 80px;
-    border: 1px solid #E5E8EC;
-    border-radius: 16px;
-    top:98px;
-}
-.page__line_third{
-    width: 100%;
-    max-width: 264px;
-    height: 152px;
-    left: 178px;
-}
-.page__line_fourth{
-    width: 100%;
-    max-width: 296px;
     height: 148px;
+    width: 296px;
     border: 1px solid #E5E8EC;
     border-radius: 8px;
-    top: 98px;
-    left: 190px;
+    top: 48px;
 }
-.page__line__button{
+.page__button{
     display: flex;
     align-items: center;
     position: absolute;
     border: none;
     cursor: pointer;
 }
-.page__line__button_first{
-    padding: 12px 32px;
-    flex-direction: column;
-    width: 156px;
-    height: 44px;
-    right: 24px;
-    top: calc(50% - 44px/2);
-    background: #FF7E4A;
-    box-shadow: 0px 6px 10px rgba(16, 17, 19, 0.1);
-    border-radius: 22px;
-}
-.page__line__button_second{
-    padding: 14px 36px;
-    flex-direction: row;
-    width: 159px;
-    height: 48px;
-    right: 24px;
-    top: calc(50% - 48px/2);
-    background: #F7B100;
-    border-radius: 8px;
-}
-.page__line__button_third{
+.page__button_first{
     padding: 10px 32px;
     flex-direction: column;
     width: 145px;
@@ -85,7 +43,7 @@
     box-shadow: 0px 6px 10px rgba(16, 17, 19, 0.1);
     border-radius: 20px;
 }
-.page__line__button_fourth{
+.page__button_second{
     padding: 8px 24px;
     flex-direction: row;
     width: 124px;
@@ -95,7 +53,7 @@
     background: #F7B100;
     border-radius: 8px;
 }
-.page__line__button__text{
+.page__button-text{
     position: static;
     height: 20px;
     display: flex;
@@ -112,52 +70,24 @@
     text-align: center;
     line-height: 20px;
 }
-.page__line__button__text_first{
-    font-size: 16px;
-    left: 32px;
-    right: 32px;
-}
-.page__line__button__text_second{
-    left: 36px;
-    right: 36px;
-    font-size: 16px;
-}
-.page__line__button__text_third{
+.page__button-text_first{
     left: 32px;
     right: 32px;
     font-size: 14px;
 }
-.page__line__button__text_fourth{
+.page__button-text_second{
     left: 24px;
     right: 24px;
     font-size: 14px;
 }
-.page__line__text{
+.page__text{
     position: absolute;
     font-style: normal;
     font-weight: normal;
     display: flex;
     align-items: center;
 }
-.page__line__text_first{
-    height: 48px;
-    left: 24px;
-    right: 204px;
-    top: calc(50% - 48px/2);
-    font-size: 16px;
-    line-height: 24px;
-    color: #212121;
-}
-.page__line__text_second{
-    height: 48px;
-    left: 24px;
-    right: 203px;
-    top: calc(50% - 48px/2);
-    font-size: 16px;
-    line-height: 24px;
-    color: #101010;
-}
-.page__line__text_third{
+.page__text_first{
     left: 20px;
     right: 20px;
     top: 16px;
@@ -166,7 +96,7 @@
     line-height: 20px;
     color: #212121;
 }
-.page__line__text_fourth{
+.page__text_second{
     height: 72px;
     left: 12px;
     right: 12px;
@@ -177,42 +107,136 @@
     text-align:  center;
     color: #101010;
 }
-.page__line__text__span1{
+.page__text__span1{
     text-decoration: line-through;
 }
-.page__line__text__span1-1{
+.page__text__span1-1{
     font-weight: bold;
     color: #FF7E4A;
 }
-.page__line__text__span1-2{
+.page__text__span1-2{
     font-weight: bold;
     color: #F7B100;
 }
-.page__line__advertising{
+}
+@media screen and (min-width:321px) and (max-width: 1200px){
+.page{
+
+    width:100%;
+    margin: 0;
+    background-color:#E5E5E5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}    
+.page__line{
+    position: relative;
+    background: #FFFFFF;
+    display: block;
+    box-sizing: border-box;    
+}       
+.page__line_first{
+    width: 100%;
+    max-width: 672px;
+    height: 80px;
+}
+.page__line_second{
+    width: 100%;
+    max-width: 640px;
+    height: 80px;
+    border: 1px solid #E5E8EC;
+    border-radius: 16px;
+    top:120px;
+}
+.page__button{
+    display: flex;
+    align-items: center;
     position: absolute;
-    font-size: 12px;
-    color: gray;
-    margin-top: -15px;
+    border: none;
+    cursor: pointer;
 }
-.page__line__banner{
+.page__button_first{
+    padding: 12px 32px;
+    flex-direction: column;
+    width: 156px;
+    height: 44px;
+    right: 24px;
+    top: calc(50% - 44px/2);
+    background: #FF7E4A;
+    box-shadow: 0px 6px 10px rgba(16, 17, 19, 0.1);
+    border-radius: 22px;
+}
+.page__button_second{
+    padding: 14px 36px;
+    flex-direction: row;
+    width: 159px;
+    height: 48px;
+    right: 24px;
+    top: calc(50% - 48px/2);
+    background: #F7B100;
+    border-radius: 8px;
+}
+.page__button-text{
+    position: static;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    top: calc(50% - 20px/2);
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+}
+.page__button-text_first{
+    font-size: 16px;
+    left: 32px;
+    right: 32px;
+}
+.page__button-text_second{
+    left: 36px;
+    right: 36px;
+    font-size: 16px;
+}
+.page__text{
     position: absolute;
-    font-size: 12px;
-    color: gray;
+    font-style: normal;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
 }
-.page__line__banner_first{
-    margin-top: -20px;
-    margin-left: 612px;
+.page__text_first{
+    height: 48px;
+    left: 24px;
+    right: 204px;
+    top: calc(50% - 48px/2);
+    font-size: 16px;
+    line-height: 24px;
+    color: #212121;
 }
-.page__line__banner_second{
-    margin-top: 90px;
-    margin-left: 580px;
+.page__text_second{
+    height: 48px;
+    left: 24px;
+    right: 203px;
+    top: calc(50% - 48px/2);
+    font-size: 16px;
+    line-height: 24px;
+    color: #101010;
 }
-.page__line__banner_third{
-    margin-top: -20px;
-    margin-left:204px;
+.page__text__span1{
+    text-decoration: line-through;
 }
-.page__line__banner_fourth{
-    margin-top: 158px;
-    margin-left:236px;
+.page__text__span1-1{
+    font-weight: bold;
+    color: #FF7E4A;
+}
+.page__text__span1-2{
+    font-weight: bold;
+    color: #F7B100;
 }
 }   
