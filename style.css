@@ -7,32 +7,32 @@
     font-style: normal;
     font-weight: normal;
 }
-.page__line
+.block
 {
     position: relative;
     background: #FFFFFF;
     display: block;
     box-sizing: border-box;    
 }
-.page__line_first{
+.block_first{
     width: 264px;
     height: 152px;
 }
-.page__line_second{
+.block_second{
     height: 148px;
     width: 296px;
     border: 1px solid #E5E8EC;
     border-radius: 8px;
     top: 48px;
 }
-.page__button{
+.block__button{
     display: flex;
     align-items: center;
     position: absolute;
     border: none;
     cursor: pointer;
 }
-.page__button_first{
+.block__button_first{
     padding: 10px 32px;
     flex-direction: column;
     width: 145px;
@@ -43,7 +43,7 @@
     box-shadow: 0px 6px 10px rgba(16, 17, 19, 0.1);
     border-radius: 20px;
 }
-.page__button_second{
+.block__button_second{
     padding: 8px 24px;
     flex-direction: row;
     width: 124px;
@@ -53,7 +53,7 @@
     background: #F7B100;
     border-radius: 8px;
 }
-.page__button-text{
+.block__button-text{
     position: static;
     height: 20px;
     display: flex;
@@ -70,24 +70,24 @@
     text-align: center;
     line-height: 20px;
 }
-.page__button-text_first{
+.block__button-text_first{
     left: 32px;
     right: 32px;
     font-size: 14px;
 }
-.page__button-text_second{
+.block__button-text_second{
     left: 24px;
     right: 24px;
     font-size: 14px;
 }
-.page__text{
+.block__text{
     position: absolute;
     font-style: normal;
     font-weight: normal;
     display: flex;
     align-items: center;
 }
-.page__text_first{
+.block__text_first{
     left: 20px;
     right: 20px;
     top: 16px;
@@ -96,7 +96,7 @@
     line-height: 20px;
     color: #212121;
 }
-.page__text_second{
+.block__text_second{
     height: 72px;
     left: 12px;
     right: 12px;
@@ -107,14 +107,14 @@
     text-align:  center;
     color: #101010;
 }
-.page__text__span1{
+.block__text__span1{
     text-decoration: line-through;
 }
-.page__text__span1-1{
+.block__text__span1-1{
     font-weight: bold;
     color: #FF7E4A;
 }
-.page__text__span1-2{
+.block__text__span1-2{
     font-weight: bold;
     color: #F7B100;
 }
@@ -129,18 +129,18 @@
     font-style: normal;
     font-weight: normal;
 }    
-.page__line{
+.block{
     position: relative;
     background: #FFFFFF;
     display: block;
     box-sizing: border-box;    
 }       
-.page__line_first{
+.block_first{
     width: 100%;
     max-width: 672px;
     height: 80px;
 }
-.page__line_second{
+.block_second{
     width: 100%;
     max-width: 640px;
     height: 80px;
@@ -148,14 +148,14 @@
     border-radius: 16px;
     top:120px;
 }
-.page__button{
+.block__button{
     display: flex;
     align-items: center;
     position: absolute;
     border: none;
     cursor: pointer;
 }
-.page__button_first{
+.block__button_first{
     padding: 12px 32px;
     flex-direction: column;
     width: 156px;
@@ -166,7 +166,7 @@
     box-shadow: 0px 6px 10px rgba(16, 17, 19, 0.1);
     border-radius: 22px;
 }
-.page__button_second{
+.block__button_second{
     padding: 14px 36px;
     flex-direction: row;
     width: 159px;
@@ -176,7 +176,7 @@
     background: #F7B100;
     border-radius: 8px;
 }
-.page__button-text{
+.block__button-text{
     position: static;
     height: 20px;
     display: flex;
@@ -193,24 +193,24 @@
     text-align: center;
     line-height: 20px;
 }
-.page__button-text_first{
+.block__button-text_first{
     font-size: 16px;
     left: 32px;
     right: 32px;
 }
-.page__button-text_second{
+.block__button-text_second{
     left: 36px;
     right: 36px;
     font-size: 16px;
 }
-.page__text{
+.block__text{
     position: absolute;
     font-style: normal;
     font-weight: normal;
     display: flex;
     align-items: center;
 }
-.page__text_first{
+.block__text_first{
     height: 48px;
     left: 24px;
     right: 204px;
@@ -219,7 +219,7 @@
     line-height: 24px;
     color: #212121;
 }
-.page__text_second{
+.block__text_second{
     height: 48px;
     left: 24px;
     right: 203px;
@@ -228,14 +228,14 @@
     line-height: 24px;
     color: #101010;
 }
-.page__text__span1{
+.block__text__span1{
     text-decoration: line-through;
 }
-.page__text__span1-1{
+.block__text__span1-1{
     font-weight: bold;
     color: #FF7E4A;
 }
-.page__text__span1-2{
+.block__text__span1-2{
     font-weight: bold;
     color: #F7B100;
 }
