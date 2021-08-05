@@ -1,0 +1,104 @@
+.page {
+  margin: 0;
+  background-color: #E5E5E5;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: normal; }
+
+.container {
+  margin: 12px; }
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 48px;
+  background: #FFFFFF; }
+
+.block__button {
+  color: white;
+  border: none;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+  cursor: pointer; }
+
+.block__text {
+  font-style: normal;
+  font-weight: normal; }
+
+.block__line-through {
+  text-decoration: line-through; }
+
+.block__highlight {
+  font-weight: bold; }
+
+.block_orange {
+  width: 264px;
+  padding: 16px 20px 16px;
+  font-family: 'Open Sans',Arial,sans-serif; }
+  .block_orange .block__button {
+    width: 145px;
+    margin-top: 16px;
+    padding: 10px 32px;
+    background: #FF7E4A;
+    border-radius: 20px;
+    box-shadow: 0px 6px 10px rgba(16, 17, 19, 0.1);
+    font-family: 'Open Sans',Arial,sans-serif;
+    font-weight: bold; }
+  .block_orange .block__text {
+    color: #212121;
+    font-size: 14px;
+    line-height: 20px; }
+  .block_orange .block__highlight {
+    color: #FF7E4A; }
+
+.block_yellow {
+  width: 296px;
+  padding: 16px 12px 16px;
+  border: 1px solid #E5E8EC;
+  border-radius: 8px;
+  font-family: Arial,sans-serif; }
+  .block_yellow .block__button {
+    width: 124px;
+    margin-top: 8px;
+    padding: 8px 24px;
+    background: #F7B100;
+    border-radius: 8px; }
+  .block_yellow .block__text {
+    color: #101010;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center; }
+  .block_yellow .block__highlight {
+    color: #F7B100; }
+
+@media screen and (min-width: 768px) {
+  .block {
+    margin-bottom: 120px;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 24px 16px; }
+  .block_orange {
+    width: 672px; }
+    .block_orange .block__button {
+      width: 156px;
+      margin-top: 0;
+      padding: 12px 32px;
+      border-radius: 22px; }
+    .block_orange .block__text {
+      line-height: 24px;
+      font-size: 16px; }
+  .block_yellow {
+    width: 640px; }
+    .block_yellow .block__button {
+      width: 159px;
+      margin-top: 0;
+      padding: 14px 36px; }
+    .block_yellow .block__text {
+      line-height: 24px;
+      text-align: left; }
+  .block__button {
+    font-size: 15px; } }
